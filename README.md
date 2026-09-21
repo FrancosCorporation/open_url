@@ -1,5 +1,9 @@
 # open_url
 
+## ℹ️ Sobre este repositório
+
+Script utilitário para abrir URLs.
+
 Automação de navegador com **Selenium**: abre uma URL no Chrome, executa
 interações (play, mudo, seleção de qualidade) e mantém a janela ativa.
 
