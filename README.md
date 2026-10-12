@@ -27,7 +27,7 @@ O script apenas abre a página indicada. Ele não clica em controles, não inici
 
 ## Verificações estáticas
 
-O workflow do GitHub Actions compila o arquivo e executa Ruff. Não há testes automatizados de navegador neste repositório.
+O workflow do GitHub Actions compila o arquivo e executa Ruff em Python 3.10 e 3.12, cobrindo a faixa mínima documentada. Não há testes automatizados de navegador neste repositório.
 
 ## Licença
 

@@ -1,6 +1,6 @@
 # Melhorias — open_url
 
-Atualizado em 2026-10-11. Projeto de estudo em Python com Selenium.
+Atualizado em 2026-10-12. Projeto de estudo em Python com Selenium.
 
 ## Decisão de escopo
 
@@ -17,6 +17,8 @@ A implementação anterior automatizava a reprodução de um vídeo do YouTube e
 | IMP-01 | P2 | Concluído | URL HTTP(S) é argumento obrigatório e validado antes da navegação. |
 | TEST-01 | P2 | Pendente | Não há teste automatizado de navegador nesta versão. |
 | DEVOPS-01 | P2 | Concluído | GitHub Actions compila o script e executa Ruff. |
+| DEVOPS-02 | P2 | Concluído | CI usa Ubuntu 24.04 e valida a sintaxe/lint em Python 3.10 e 3.12, conforme o mínimo do README. |
+| DEVOPS-03 | P3 | Concluído | `.gitignore` cobre venvs e caches gerados por Python, pytest e Ruff. |
 | DOC-01 | P2 | Concluído | README documenta instalação, execução, dependências e limites de uso. |
 
 ## Verificação estática
